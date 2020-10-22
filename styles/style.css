@@ -14,10 +14,17 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    padding: 15px;
 }
 .logo {
     height: 50px;
+}
+.logos{
+    width: 25%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 .nav-bar {
 display: flex;
@@ -46,20 +53,22 @@ width: 300px;
 .box {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    font-size: 50px;
+    font-size: 25px;
+    margin: 15px;
 }
 
 .box-column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
-.box-column>img {
-    height: 100px;
+.kanye img {
+    width: 50%;
 }
  .container2>h2{
     text-align: center;
@@ -73,12 +82,12 @@ width: 300px;
     background-color: #00B172;
     background-position: center;
     background-image: url("../images/spotify-icon-white.png");
-    background-size: 120px;
+    background-size: 10%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    padding: 20px;
     color: #FFF;
 }
 
@@ -90,3 +99,10 @@ text-decoration: underline;
     color: #00B172;
 }
 
+.bullets {
+    width: 50%;
+}
+.kanye {
+    display: flex;
+    justify-content: flex-end;
+}
